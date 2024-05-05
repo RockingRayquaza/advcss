@@ -6,6 +6,25 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+
+.container{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+
+
+}
+a{
+    text-decoration: none;
+    color: #f9f9f9;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+a:hover{
+    text-shadow: 0px 0px 4px rgb(7, 164, 175), 1px 1px 4px rgba(28, 115, 155, 0.623);
+    box-shadow: 0px 0px 4px rgb(7, 164, 175), 1px 1px 4px rgba(28, 115, 155, 0.623);
+}
 #hero{
     margin: 0;
     width: 100%;
@@ -14,6 +33,27 @@ body{
     background-size: cover;
     position: relative;
 }
+.navb{
+    display: table;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
+    
+    
+}
+.navb li{
+    margin: 10px;
+    top: 0%;
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+.navb li:hover, li:active{
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+}
+
+
 #hero h1{
     font-size: 60px;
     color: white;
@@ -35,23 +75,29 @@ body{
     letter-spacing: 4px;
 }
 .image-container{
-    margin:  0;
+    display: block;
     border-bottom: 2px, solid rgb(59, 59, 59); 
-    width: 100%;
+    width: 90%;
+    margin: auto;
+    padding: 0;
     border-top: 2px, solid rgb(59, 59, 59); 
+    overflow: auto;
+    position: relative;
+    
 
 }
-.image-container div.image-box:last-child{
-    clear: both;
-}
+
 .image-box{
-    width: 25%;
+    display: block;
+    width: 23%;
     text-align: center;
+    position: relative;
     box-shadow: 0 3px 6px 0 rgb(7, 164, 175), 0 6px 20px 0 rgba(28, 115, 155, 0.623);
     margin: 10px;
     float:left;
     border-radius: 15px;
 }
+
 .image-box img{
     width: 100%; 
     border-radius: inherit;
